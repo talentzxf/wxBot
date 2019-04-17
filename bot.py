@@ -97,11 +97,11 @@ class TulingWXBot(WXBot):
 
 
 def main():
-    bot = TulingWXBot()
-    bot.DEBUG = True
-    bot.conf['qr'] = 'png'
+   bot = TulingWXBot()
+   bot.DEBUG = True
+   bot.conf['qr'] = 'tty'
 
-    bot.run()
+   bot.run()
 
 
 if __name__ == '__main__':
